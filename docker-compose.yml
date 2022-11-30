@@ -1,10 +1,3 @@
-#Zbudujmy własny zestaw definicji środowiska dla aplikacji to-do. Zamierzamy połączyć środowisko programistyczne i środowisko testowe i upewnić się, że oba mogą działać na tej samej maszynie. Środowisko programistyczne powinno być domyślne, które można uruchomić za pomocą docker-compose up. Konfiguracja powinna:
-#
-#  Użyć lokalnego pliku bazy danych
-#  Opublikować aplikacje na porcie 8089
-#  Uruchomić wersję v2 aplikacji to-do
-
-
 version: '3.7'
 services:
   todo-db:
